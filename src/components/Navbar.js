@@ -55,6 +55,12 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+        <marquee direction="left" loop="">
+          <b className="purple">
+            The only way to do great work is to love what you do. First, solve
+            the problem. Then, write the code.
+          </b>
+        </marquee>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
